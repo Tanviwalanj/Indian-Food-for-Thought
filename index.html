@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preload" href="PPEditorialNew-Ultralight.woff2" as="font" type="font/woff2" crossorigin>
+<title class="title">Indian Food For Thought</title>
+</head>
+
+<body>
+  <div id="container">
+    <a id="top"></a>
+<header id="header">
+<nav id="nav-bar">
+<ul> 
+  <li><a href="#top"><img src="Logo.png" id="header-img" alt="logo"></a></li>
+  <li><a href="#recipie" class="nav-link">About</a></li>
+  <li><a href="#guarantee" class="nav-link">How to use</a></li>
+  <li><a href="#commercial" class="nav-link">Chart</a></li>
+</ul>
+</nav>
+  </header>
+  <div class="element">
+<!-- <div class="Indian"> INDIAN</div> -->
+<h1>Food for thought</h1>
+  <h2>by Tanvi Walanj | May 12th, 2023</h2> <br>
+  <img src="Plate.png" alt="Plate" id="big-logo">
+  </div>
+    <a id="recipie" class="anchor"></a>
+<div id="explanation" class="element">
+  <section>
+  <h3>About</h3>   
+  <!-- <ul>
+    <li>one layer of cream</li>
+    <li>two flakey wafers</li>
+    <li>three scoops of love</li>
+    <li>four drops of quality neurotransmitters</li>
+  </ul> -->
+  <p>This chart is created for curious Indian food lovers. It is for people who have specific ingredients with them and would love to know about the various Indian dishes that they make from them.  From the visualization, we can also see the most common ingredients used.
+  </p>
+    </section>
+</div>
+<a id="guarantee" class="anchor"></a>
+<div id="promise" class="element">
+  <section>
+    <h3>How to use it</h3>
+  <p>You  can select the ingredients from the table below that you might have handy and explore the myriad Indian dishes that you can make with them. Where there is food there is love!
+  </p>
+    </section>
+</div>
+<a id="commercial" class="anchor"></a>
+<div id="demonstration" class="element">
+  <section>
+  <h3 class="lasttext">See what you can make</h3>
+  <svg width="1000" height="900"></svg>
+  </section>
+</div>
+
+
+</body>
+<style>
+
+html{
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* .Indian{
+  position: absolute;
+	margin-top: -333px;
+	left: 198px;
+	font-family: 'PP Editorial New';
+  font-weight: 400;
+	font-size: 40px;
+	transform: rotate(-10deg);
+} */
+
+body {
+  background: #F9FAEE;
+  color: #0e12f4;
+  font-family: 'PP Editorial New';
+  padding: 0 2vw 0 2vw;
+  text-align: justify;
+  height: 100%;
+  margin: 0 10vh 10vh 10vh 10vh;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#nav-bar{
+  background-color: #251ef1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  min-height: 5vh;
+}
+
+p{
+  font-style: italic;
+font-size: 28px; }
+
+
+#nav-bar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-bar li {
+  float: left;
+  padding: .5vw 2vw;
+  font-size: 2.1vw;
+  font-family: 'PP Editorial New';
+  font-weight: 200;
+}
+
+#nav-bar a{
+  text-decoration: none;
+  color: #F9FAEE;
+}
+
+#header-img {
+  height: 2vw;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -10vh; 
+  visibility: hidden;
+}
+
+h1{
+  font-size: 8.4vw;
+  font-family: 'PP Editorial New';
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 151px;
+  text-align: center;
+}
+
+h2{
+  font-family: 'PP Editorial New';
+  font-weight: 400;
+  font-size: 3vw;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  color: #282928;
+}
+
+h3{
+  font-family: 'PP Editorial New';
+  font-weight: 400;
+  font-size: 5vw;
+  margin-top: 0pt;
+}
+
+.lasttext{ margin-bottom: 0pt;}
+
+.element{
+  font-size: 4vh;
+  padding: 3vw;
+  border-radius: 25pt;
+  margin: 0pt 0pt 60pt 0pt;
+  min-width: .5vw;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; 
+}
+
+#big-logo{
+  height: 148pt;
+  border-radius: 25pt;
+  margin-top: -453px;
+}
+
+#explanation ul{
+  list-style-type: none;
+}
+
+#explanation li:before{
+  float: left;
+  width: 1.4em;
+  font-family: 'Font Awesome 5 Free';
+  content: '\f2e5';
+  font-weight: 900;
+  color: #E665D2; 
+}
+
+section{
+  background-color: #f5f5f5;
+  border-radius: 25pt;
+  padding: 2vw 2vw 5vw 2vw;
+  border: solid;
+  border-color: #251ef1;
+}
+
+@media (max-width: 500px){
+  body{
+    margin: 0
+  }
+  
+  #big-logo{
+  height:437pt;
+  border-radius: 25pt;
+}
+  
+  h2{
+   font-size: 5vw 
+}
+  
+  #nav-bar li {
+  font-size: 10pt;
+}
+  
+  .element{
+  font-size: 10pt;
+  }
+  
+  .element ul{
+  margin-left: -7vw;
+}
+
+}
+
+/* circle packing */
+
+.svg{ margin-top: 0px;}
+
+.node {
+  cursor: pointer;
+  fill:#ffffff;
+}
+
+.node:hover {
+  stroke: rgb(20, 62, 249);
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill:#251ef1;
+  stroke: #251ef1;
+}
+
+.label {
+  font: 65px;
+  fill: #fefeff;
+  font-family: 'PP Editorial New';
+  font-weight: 400;
+  font-style: normal;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 rgb(5, 5, 5), 1px 0 0 rgb(1, 1, 1), -1px 0 0 rgb(2, 2, 2), 0 -1px 0 rgb(2, 2, 2);
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+</style>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    margin = 200,
+    diameter = +svg.attr("width"),
+    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+var color = d3.scaleLinear()
+    .domain([10, 2])
+    .range(["hsl(1,5%,30%)", "hsl(0,5%,80%)"])
+    .interpolate(d3.interpolateHcl);
+
+var pack = d3.pack()
+    .size([diameter - margin, diameter - margin])
+    .padding(2);
+
+d3.json("flare.json", function(error, root) {
+  if (error) throw error;
+
+  root = d3.hierarchy(root)
+      .sum(function(d) { return d.size; })
+      .sort(function(a, b) { return b.value - a.value; });
+
+  var focus = root,
+      nodes = pack(root).descendants(),
+      view;
+
+  var circle = g.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+
+  var text = g.selectAll("text")
+    .data(nodes)
+    .enter().append("text")
+      .attr("class", "label")
+      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .text(function(d) { return d.data.name; });
+
+  var node = g.selectAll("circle,text");
+
+  svg
+      // .style("background", color(5))
+      .on("click", function() { zoom(root); });
+
+  zoomTo([root.x, root.y, root.r * 2 + margin]);
+
+  function zoom(d) {
+    var focus0 = focus; focus = d;
+
+    var transition = d3.transition()
+        .duration(d3.event.altKey ? 7500 : 750)
+        .tween("zoom", function(d) {
+          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+          return function(t) { zoomTo(i(t)); };
+        });
+
+    transition.selectAll("text")
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+  }
+
+  function zoomTo(v) {
+    var k = diameter / v[2]; view = v;
+    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+    circle.attr("r", function(d) { return d.r * k; });
+  }
+});
+
+</script>

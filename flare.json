@@ -1,0 +1,140 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Potato",
+   "image": "Logo.png",
+   "children": [
+      {"name": "Aloo gobi", "size": 3938},
+      {"name": "Aloo tikki", "size": 3812},
+      {"name": "Aloo matar", "size": 6714},
+      {"name": "Aloo methi", "size": 3243},
+      {"name": "Aloo shimla", "size": 3534},
+      {"name": "Dum aloo", "size": 5731}
+     ]
+    },
+ 
+  {
+   "name": "Curd",
+   "children": [
+      {"name": "Lassi", "size": 721},
+      {"name": "Balu shahi", "size": 4294},
+      {"name": "Nankhatai", "size": 9800},
+      {"name": "Malapua", "size": 1314},
+      {"name": "Paniyaram", "size": 2220}
+     ]
+    },
+
+  {
+   "name": "Milk",
+   "children": [
+    {"name": "Kalakand", "size": 8833},
+    {"name": "Kheer", "size": 1732},
+    {"name": "Lassi", "size": 3623},
+    {"name": "Rabri", "size": 1066},
+    {"name": "Gajar ka halwa", "size": 8833},
+    {"name": "Ghevar", "size": 1732},
+    {"name": "Gulab jamun", "size": 3623},
+    {"name": "Sheera", "size": 1066},
+    {"name": "Double ka meetha", "size": 19118},
+    {"name": "Sohan papdi", "size": 6557}
+    
+   ]
+  },
+  
+  {
+   "name": "Dal",
+   "children": [
+    {"name": "Fara", "size": 1082},
+    {"name": "Daal puri", "size": 1936},
+    {"name": "Dal tadka", "size": 2819},
+    {"name": "Dal makhani", "size": 10498},
+    {"name": "Kachori", "size": 2822},
+    {"name": "Daal baati churma", "size": 9983},
+    {"name": "Khichdi", "size": 2213}
+   ]
+  },
+  {
+   "name": "Paneer",
+   "children": [
+    {"name": "Kofta", "size": 1616},
+    {"name": "Kadai paneer", "size": 4027},
+    {"name": "Palak paneer", "size": 4891},
+    {"name": "Paneer butter masala", "size": 20891},
+    {"name": "Paneer tikka masala", "size": 20893},
+    {"name": "Shahi paneer", "size": 6103},
+    {"name": "Shufta", "size": 3677},
+    {"name": "Kalakand", "size": 3781}
+   ]
+  },
+  {
+   "name": "Chenna",
+   "children": [
+    {"name": "Chhena jalebi", "size": 2105},
+    {"name": "Chhena kheeri", "size": 1316},
+    {"name": "Ledikeni", "size": 3151},
+    {"name": "Pantua", "size": 3770},
+    {"name": "Ras malai", "size": 2435},
+    {"name": "Rasgulla", "size": 4839}
+   ]
+  },
+  
+  {
+   "name": "Flour",
+   "children": [
+    {
+     "name": "Flour",
+     "children": [
+      {"name": "Ghevar", "size": 1302},
+      {"name": "Cham cham", "size": 4593},
+      {"name": "Lyangcha", "size": 2252},
+      {"name": "Gulab jamun", "size": 4593},
+      {"name": "Pantua", "size": 1652}
+     ]
+    },
+    {
+     "name": "Gram Flour",
+     "children": [
+      {"name": "Laddu", "size": 2138},
+      {"name": "Boondi", "size": 3824},
+      {"name": "Sohan papdi", "size": 4665},
+      {"name": "Koldil Duck", "size": 4665}
+     ]
+    },
+    {
+     "name": "Rice Flour",
+     "children": [
+      {"name": "Adhirasam", "size": 20544},
+      {"name": "Koldil Duck", "size": 19788},
+      {"name": "Chakali", "size": 10349},
+      {"name": "Ariselu", "size": 3301},
+      {"name": "Pootharekulu", "size": 19382},
+      {"name": "Gavvalu", "size": 19382},
+      {"name": "Unni Appam", "size": 11275},
+      {"name": "Pithe", "size": 7147},
+      {"name": "Kajjikaya", "size": 9930}
+     ]
+    },
+    {
+     "name": "Besan flour",
+     "children": [
+      {"name": "Bandar laddu", "size": 4813},
+      {"name": "Mihidana", "size": 1880},
+      {"name": "Kabiraji", "size": 2701},
+      {"name": "Nankhatai", "size": 2701},
+      {"name": "Gatta curry", "size": 4117}
+     ]
+    },
+    {
+     "name": "Maida flour",
+     "children": [
+      {"name": "Obbattu holige", "size": 20859},
+      {"name": "Jalebi", "size": 4614},
+      {"name": "Sutar feni", "size": 5614},
+      {"name": "Balu shahi", "size": 10530}
+     ]
+    }
+   ]
+  }
+ ]
+}
